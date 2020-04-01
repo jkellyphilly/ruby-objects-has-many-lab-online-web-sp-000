@@ -9,4 +9,7 @@ class Post
     save
   end
 
+  def save
+    @@all << self
+
 end
