@@ -14,7 +14,7 @@ class Post
   end
 
   def artist_name
-    self.artist.name
+    self.author.name
   end
 
   def self.all
