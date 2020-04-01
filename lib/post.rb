@@ -13,6 +13,10 @@ class Post
     @@all << self
   end
 
+  def artist_name
+
+  end
+
   def self.all
     @@all
   end
